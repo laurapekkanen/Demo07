@@ -23,6 +23,12 @@ namespace Teht1_lotto
     /// </summary>
     public sealed partial class MainPage : Page
     {
+        public string TextBox1
+        {
+            get { return this.Draws.Text; }
+            set { this.Draws.Text = value; }
+        }
+        
         public MainPage()
         {
             this.InitializeComponent();
@@ -36,7 +42,7 @@ namespace Teht1_lotto
 
         private void drawButton_Click(object sender, RoutedEventArgs e)
         {
-
+            
         }
 
         private void clearButton_Click(object sender, RoutedEventArgs e)

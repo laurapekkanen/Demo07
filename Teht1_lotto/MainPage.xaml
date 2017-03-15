@@ -27,6 +27,7 @@
                 <TextBlock Text="Random numbers:"/>
             </StackPanel>
             <StackPanel Orientation="Horizontal">
+                <TextBlock x:Name="LottoRows" Width="300" Height="600" ScrollViewer.VerticalScrollMode="Auto"/>
             </StackPanel>
         </StackPanel>
         <!-- right column -->
