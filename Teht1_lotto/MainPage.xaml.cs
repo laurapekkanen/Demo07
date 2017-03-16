@@ -23,22 +23,6 @@ namespace Teht1_lotto
     /// </summary>
     public sealed partial class MainPage : Page
     {
-        public string TextBox1
-        {
-            get { return this.Draws.Text; }
-            set { this.Draws.Text = value; }
-        }
-        
-        public MainPage()
-        {
-            this.InitializeComponent();
-            //change default start up mode
-            ApplicationView.PreferredLaunchWindowingMode = ApplicationViewWindowingMode.PreferredLaunchViewSize;
-            // size 800*1000
-            ApplicationView.PreferredLaunchViewSize = new Size(800, 1000);
-            //disable debugger info
-            App.Current.DebugSettings.EnableFrameRateCounter = false;
-        }
 
         private void drawButton_Click(object sender, RoutedEventArgs e)
         {
